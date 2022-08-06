@@ -1,0 +1,35 @@
+.FilterMeals {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    /* 把元素充满 */
+    left: 0;
+    right: 0;
+    z-index: 999;
+    height: 100rem;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.InputOuter {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.searchInput {
+    width: 700rem;
+    font-size: 28rem;
+    height: 60rem;
+    border: none;
+    border-radius: 16px;
+    background-color: #f2f2f2;
+    padding-left: 60rem;
+    outline: none;
+}
+
+.searchIcon {
+    position: absolute;
+    left: 10rem;
+
+}
